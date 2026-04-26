@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>InAirItems</AssemblyName>
+    <RootNamespace>InAirItems</RootNamespace>
+  </PropertyGroup>
+</Project>
