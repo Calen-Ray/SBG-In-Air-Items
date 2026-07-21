@@ -84,7 +84,7 @@ namespace InAirItems
                     yield break;
                 }
 
-                bool ok = inventory.TrySelectItemSlot(nextIndex);
+                bool ok = inventory.TrySelectItemSlot(nextIndex, fromForcedHotkeySelect: false);
                 LogVerbose($"InAirItems: TrySelectItemSlot({nextIndex}) attempt {attempt + 1} -> {ok}.");
                 if (ok)
                     yield break;
