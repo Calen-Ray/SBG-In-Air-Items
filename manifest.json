@@ -1,6 +1,6 @@
 {
     "name": "InAirItems",
-    "version_number": "0.2.1",
+    "version_number": "0.2.2",
     "website_url": "",
     "description": "Auto-selects the next available inventory item the moment Spring Boots fire so you can deploy items mid-jump without scrolling.",
     "dependencies": [

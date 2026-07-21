@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.2
+
+- Fix compatibility with the July 2026 Super Battle Golf engine update:
+  `PlayerInventory.TrySelectItemSlot(int)` gained a required `fromForcedHotkeySelect` bool
+  param. Pass `false` to preserve this mod's prior (non-hotkey-forced) selection behavior.
+
 ## v0.2.1
 
 - **Actually install the postfix.** v0.1.0 / v0.2.0 placed `[HarmonyPatch]` on the postfix

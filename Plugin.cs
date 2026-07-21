@@ -13,7 +13,7 @@ namespace InAirItems
     {
         public const string ModGuid = "sbg.inairitems";
         public const string ModName = "InAirItems";
-        public const string ModVersion = "0.2.1";
+        public const string ModVersion = "0.2.2";
 
         internal static ManualLogSource Log;
         internal static Plugin Instance;
